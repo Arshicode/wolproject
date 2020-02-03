@@ -291,3 +291,19 @@ footer {
   padding: 21px 0;
   display: none;
 }
+
+#testimonial{
+  height:100%;
+  width:100%;
+  padding:2rem 0;
+  background:#f5fafe;
+  margin-bottom:4 rem;
+}
+
+.testimonial-title{
+  text-align:center;
+  color:#397af9;
+  font-weight:bold;
+  font-size:2rem;
+  position:relative;
+}
