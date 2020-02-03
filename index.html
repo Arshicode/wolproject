@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <!-- Settings of the HTML document -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aspire</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="quiz.css"/>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <i class="fa fa-atlassian"></i>
+          <h3
+            class="logo"
+          >ASPIRE</h3>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="lessons.html">Lessons</a>
+          <a href="#" class="login">Log in</a>
+        </div>
+      </div>
+    </header>
+    <!-- Top -->
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>LEARN TO CODE.</h1>
+        <h1>LEARN TO BE CREATIVE.</h1>
+        <p>Aspire is a web service where you can learn programming online.</p>
+        <p>
+          We offer you a fully equipped coding environment to get you started.
+        </p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">Sign up with Email</a>
+          <p>or</p>
+          <a href="#" class="btn facebook"
+            ><span class="fa fa-facebook"></span>Sign up with Facebook</a
+          >
+          <a href="#" class="btn twitter"
+            ><span class="fa fa-twitter"></span>Sign up with Twitter</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Sign up modal -->
+    <div class="signup-modal-wrapper" id="signup-modal">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fa fa-2x fa-times">×</i>
+        </div>
+        <div id="signup-form">
+          <h2>Sign up with email</h2>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="Email" />
+            <input
+              class="form-control"
+              type="password"
+              placeholder="Password"
+            />
+            <div id="submit-btn">Sign up</div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Lesson -->
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Learn Where to Get Started!</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/html.png" />
+              <p>HTML & CSS</p>
+            </div>
+            <p class="text-contents">
+              Languages used to build and design the appearances of your
+              websites. HTML adds the structure, and CSS styles it.
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/jQuery.png" />
+              <p>jQuery</p>
+            </div>
+            <p class="text-contents">
+              A fast, feature-rich and easy-to-use JavaScript library that
+              handles animations and Ajax requests.
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png" />
+              <p>Ruby</p>
+            </div>
+            <p class="text-contents">
+              A dynamic, general-purpose language that is simple and productive.
+              It is commonly used around the world to build web applications.
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png" />
+              <p>PHP</p>
+            </div>
+            <p class="text-contents">
+              An open source scripting language that can be embedded into HTML,
+              and well suited for web development.
+            </p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Message -->
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Ready to become an awesome programmer?</h2>
+          <h3>Let's learn to code, learn to be creative!</h3>
+        </div>
+        <span class="btn message">Start Learning</span><br><br><br>
+        <div class="quiz-section">
+        <p>OR<br>take the following<br>quiz to know<br>where your fundamentals stand</p>
+        <h1 class="quiz-heading">JavaScript Quiz</h1>
+<form id="form1">
+
+<h2>Which is the best description of a variable?</h2>
+<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Identifies a portion of a string.</label>
+<label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A method to join strings.</label>
+<label for="var_info"><input type="radio" name="variable" value="25" id="var_info" />Allows you to store information so it can be reused throughout the program</label>
+<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Allows you to make a decision based on a condition.</label>
+
+<h2>Which is the best description of the substring method?</h2>
+<label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/>Identifies a portion of a string.</label>
+<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>A method to join strings.</label>
+<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Allows you to store information so it can be reused throughout the program</label>
+<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Allows you to make a decision based on a condition.</label>
+
+<h2>Which is the best description of concatenation?</h2>
+<label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Identifies a portion of a string.</label>
+<label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A method to join strings.</label>
+<label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Allows you to store information so it can be reused throughout the program</label>
+<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Allows you to make a decision based on a condition.</label>
+
+<h2>Which is the best description of an if statement?</h2>
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Identifies a portion of a string.</label>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />A method to join strings.</label>
+<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Allows you to store information so it can be reused throughout the program</label>
+<label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Allows you to make a decision based on a condition.</label>
+
+<button type="submit" value="Submit">Submit</button>
+
+</form>
+
+<p>Your grade is: <span id="grade">__</span></p>
+<p id="grade2"></p>
+</div>
+<script>
+document.getElementById("form1").onsubmit=function() {
+       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+     sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+     con = parseInt(document.querySelector('input[name = "con"]:checked').value);
+     ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
+     
+     
+     result = variable + sub + con + ifstate;
+     
+  document.getElementById("grade").innerHTML = result;
+     
+if (result == 0) {result2 = "I don't think you studied."};
+if (result == 25) {result2 = "You need to spend more time. Try again."};
+if (result == 50) {result2 = "I think you could do better. Try again."};
+if (result == 75) {result2 = "So close. Try again."};
+if (result == 100) {result2 = "Excellent! You're a JavaScript pro!"};
+document.getElementById("grade2").innerHTML = result2; 
+
+
+document.getElementById("grade2").innerHTML = result2; 
+
+
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+</script>
+
+
+      </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <img src="Aspire-to-Inspire.jpg" />
+        <p>Learn to code, learn to be creative.</p>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+       <script src="quiz.js"></script>
+    </footer>
+  </body>
+</html>
